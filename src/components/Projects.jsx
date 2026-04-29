@@ -74,7 +74,30 @@ function Projects() {
         },
       ],
     },
+{
+  title: "Autonomous Bus Shuttle CGI Study",
+  description:
+    "A research project using Unreal Engine to create an immersive autonomous shuttle windshield-view simulation for speed perception analysis.",
+  longDescription:
+    "This research project focused on creating a CGI-based autonomous bus shuttle environment in Unreal Engine to study human speed perception in immersive virtual scenarios. The simulation recreated a windshield-view experience from inside an autonomous shuttle, allowing users to observe motion, depth, and environmental cues in a controlled virtual setup. The project involved building realistic scene environments, configuring camera perspectives, preparing visual media for user study evaluation, and supporting data-driven analysis using Python and quantitative methods.",
+  image: "/Autonomous_Bus/Automonous_shuttle.png",
+  tech: ["Unreal Engine 5.3.2", "CGI", "Python", "User Study", "Quantitative Analysis"],
+  videos: [
     {
+      src: "/Autonomous_Bus/Training_Videos.mp4",
+      title: "Training Video",
+    },
+  ],
+  gallery: [
+    {
+      image: "/Autonomous_Bus/Environment_View.png",
+      title: "CGI Environment Setup",
+      description:
+        "Unreal Engine scene environment designed to support controlled user study conditions and realistic visual perception testing.",
+    },
+  ],
+},
+  {
       title: "Miguel's Adventure",
       description:
         "A Unity platformer prototype focused on player movement, level interaction, and gameplay feedback.",
