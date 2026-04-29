@@ -23,7 +23,7 @@ function Contact() {
           </button>
 
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/vyghnex142"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-item"
