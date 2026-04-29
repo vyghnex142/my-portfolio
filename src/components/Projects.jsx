@@ -90,7 +90,7 @@ function Projects() {
   ],
   gallery: [
     {
-      image: "/Autonomous_Bus/Environment_View.png",
+      image: "/Autonomous_Bus/Environment_View.jpeg",
       title: "CGI Environment Setup",
       description:
         "Unreal Engine scene environment designed to support controlled user study conditions and realistic visual perception testing.",
