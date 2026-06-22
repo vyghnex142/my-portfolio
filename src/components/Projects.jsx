@@ -27,7 +27,7 @@ function Projects() {
 
   image: "/AR_Meet/Player JoinedLobby.jpeg",
 
-
+  tech: ["Unity 6", "AR", "Android", "Multiplayer", "C#"],
   videos: [
     {
       src: "/AR_Meet/Create and join -2.mp4",
@@ -200,13 +200,13 @@ function Projects() {
                   <span>View Details</span>
                 </div>
               </div>
-
+ 
               <div className="project-content">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
 
                 <div className="tech-tags">
-                  {project.tech.map((tech, i) => (
+                  {project.tech?.map((tech, i) => (
                     <span key={i} className="tag">
                       {tech}
                     </span>
@@ -249,7 +249,7 @@ function Projects() {
               <p>{selectedProject.longDescription}</p>
 
               <div className="tech-tags popup-tags">
-                {selectedProject.tech.map((tech, i) => (
+                {selectedProject.tech?.map((tech, i) => (
                   <span key={i} className="tag">
                     {tech}
                   </span>
@@ -260,7 +260,7 @@ function Projects() {
                 <div className="popup-section">
                   <h4>Project Videos</h4>
 
-                  {selectedProject.videos.map((video, index) => (
+                  {selectedProject.videos?.map((video, index) => (
                     <div key={index} className="popup-gallery-card">
                       <div className="popup-video-wrapper">
                         <video className="popup-video" controls preload="metadata">
@@ -281,7 +281,7 @@ function Projects() {
                 <h4>Gallery</h4>
 
                 <div className="popup-gallery">
-                  {selectedProject.gallery.map((item, index) => (
+                  {selectedProject.gallery?.map((item, index) => (
                     <div key={index} className="popup-gallery-card">
                       <img
                         src={item.image}
