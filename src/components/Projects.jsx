@@ -25,7 +25,7 @@ function Projects() {
   longDescription:
     "AR Meet is a multiplayer augmented reality collaboration platform developed using Unity 6 for Android devices. The application allows multiple users to join a shared AR workspace through a synchronized lobby system, creating a common augmented environment where participants can interact in real time. Each user is represented by a personalized avatar within the shared space, enabling natural awareness of other participants. Users can create and organize color-coded virtual sticky notes for brainstorming, discussions, and collaborative learning activities. The platform also supports image sharing inside the AR environment, allowing participants to present and discuss visual content directly within the workspace. Unity's networking framework was used to synchronize user presence, shared objects, sticky notes, and collaborative interactions across multiple devices. Future development includes integrated voice communication, presentation support for educational sessions, and additional collaboration tools to further enhance immersive learning and remote teamwork experiences.",
 
-  image: "/AR_Meet/Main_View.jpeg",
+  image: "/AR_Meet/Player JoinedLobby.jpeg",
 
 
   videos: [
