@@ -18,6 +18,49 @@ function Projects() {
 
   const projectList = [
     {
+  title: "AR Meet",
+  description:
+    "A collaborative multiplayer AR workspace that enables users to interact, share content, and collaborate in a synchronized augmented reality environment.",
+
+  longDescription:
+    "AR Meet is a multiplayer augmented reality collaboration platform developed using Unity 6 for Android devices. The application allows multiple users to join a shared AR workspace through a synchronized lobby system, creating a common augmented environment where participants can interact in real time. Each user is represented by a personalized avatar within the shared space, enabling natural awareness of other participants. Users can create and organize color-coded virtual sticky notes for brainstorming, discussions, and collaborative learning activities. The platform also supports image sharing inside the AR environment, allowing participants to present and discuss visual content directly within the workspace. Unity's networking framework was used to synchronize user presence, shared objects, sticky notes, and collaborative interactions across multiple devices. Future development includes integrated voice communication, presentation support for educational sessions, and additional collaboration tools to further enhance immersive learning and remote teamwork experiences.",
+
+  image: "/AR_Meet/Main_View.jpeg",
+
+
+  videos: [
+    {
+      src: "/AR_Meet/Create and join -2.mp4",
+      title: "Multiplayer Collaboration Demo",
+    },
+    {
+      src: "/AR_Meet/new Worksync -1.mp4",
+      title: "Shared Workspace Interaction",
+    },
+  ],
+
+  gallery: [
+    {
+      image: "/AR_Meet/Lobby.jpeg",
+      title: "Multiplayer Lobby",
+      description:
+        "Room-based lobby system allowing users to create or join collaborative AR sessions before entering the shared workspace.",
+    },
+    {
+      image: "/AR_Meet/Player Joined Lobby.jpeg",
+      title: "Shared AR Workspace",
+      description:
+        "Multiple users interacting within the same synchronized augmented reality environment using avatars and shared content.",
+    },
+    {
+      image: "/AR_Meet/Joined Lobby.jpeg",
+      title: "Collaborative Sticky Notes",
+      description:
+        "Color-coded virtual sticky notes used for brainstorming, discussions, task planning, and educational collaboration.",
+    },
+  ],
+},
+    {
       title: "AR Ludo Game",
       description:
         "A cross-platform augmented reality multiplayer Ludo game built for Meta Quest 3 and Android using Unity and Photon networking.",
